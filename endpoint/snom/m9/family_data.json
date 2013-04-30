@@ -1,0 +1,42 @@
+{
+	"data":
+	{
+		"name":"Snom m9x Models [m9, m9r]",
+		"id":"5",
+		"directory":"m9",
+		"firmware_ver":"",
+		"firmware_pkg":"NULL",
+		"firmware_md5sum":"",
+		"description":"",
+		"configuration_files":"snom-$model-$mac.xml,snom$model.xml,$mac_firmware.xml",
+		"changelog":"",
+		"provisioning_types":
+		[
+			"tftp",
+			"http"
+		],
+		"model_list":
+		[
+			{
+				"model":"m9",
+				"lines":"9",
+				"id":"1",
+				"template_data":
+				[
+					"line_options.json",
+					"template_data.json",
+				]
+			},
+			{
+				"model":"m9r",
+				"lines":"9",
+				"id":"2",
+				"template_data":
+				[
+					"line_options.json",
+					"template_data.json",
+				]
+			}
+		]
+	}
+}
