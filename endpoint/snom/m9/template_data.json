@@ -8,15 +8,39 @@
             "name":"general",
             "item":[
               {
-                "variable":"$http_username",
+                "variable":"$base_name",
                 "default_value":"",
+                "description":"Name of the base station",
+                "type":"input"
+              },
+              {
+                "type":"break"
+              },
+              {
+                "variable":"$firmware_url",
+                "default_value":"",
+                "description":"Firmware URL",
+                "type":"input"
+              },
+              {
+                "type":"break"
+              },
+              {
+                "variable":"$http_username",
+                "default_value":"admin",
                 "description":"HTTP Username",
                 "type":"input"
               },
               {
                 "variable":"$http_password",
-                "default_value":"",
+                "default_value":"password",
                 "description":"HTTP Password",
+                "type":"input"
+              },
+              {
+                "variable":"$base_pin",
+                "default_value":"0000",
+                "description":"PIN (4 digits)",
                 "type":"input"
               },
               {
@@ -29,82 +53,74 @@
                 "type":"input"
               },
               {
-                "variable":"$tones",
+                "variable":"$tone_scheme",
                 "default_value":"USA",
                 "description":"Dialtone",
                 "type":"list",
                 "data":[
                   {
-                    "text":"Australia",
-                    "value":"AUS"
+                    "text":"English (USA)",
+                    "value":"1"
+                  },
+                  {
+                    "text":"English (UK)",
+                    "value":"2"
+                  },
+                  {
+                    "text":"Deutsch",
+                    "value":"3"
                   },
                   {
                     "text":"Austria",
-                    "value":"AUT"
-                  },
-                  {
-                    "text":"China",
-                    "value":"CHN"
-                  },
-                  {
-                    "text":"Denmark",
-                    "value":"DNK"
-                  },
-                  {
-                    "text":"France",
-                    "value":"FRA"
-                  },
-                  {
-                    "text":"Germany",
-                    "value":"GER"
-                  },
-                  {
-                    "text":"Great Britain",
-                    "value":"GBR"
-                  },
-                  {
-                    "text":"India",
-                    "value":"IND"
-                  },
-                  {
-                    "text":"Italy",
-                    "value":"ITA"
-                  },
-                  {
-                    "text":"Japan",
-                    "value":"JPN"
-                  },
-                  {
-                    "text":"Mexico",
-                    "value":"MEX"
+                    "value":"4"
                   },
                   {
                     "text":"Netherlands",
-                    "value":"NLD"
-                  },
-                  {
-                    "text":"Norway",
-                    "value":"NOR"
-                  },
-                  {
-                    "text":"New Zealand",
-                    "value":"NZL"
-                  },
-                  {
-                    "text":"Spain",
-                    "value":"ESP"
+                    "value":"5"
                   },
                   {
                     "text":"Sweden",
-                    "value":"SWE"
+                    "value":"6"
+                  },
+                  {
+                    "text":"Norway",
+                    "value":"7"
+                  },
+                  {
+                    "text":"Denmark",
+                    "value":"8"
+                  },
+                  {
+                    "text":"Japan",
+                    "value":"9"
                   },
                   {
                     "text":"Switzerland",
-                    "value":"SWI"
+                    "value":"10"
                   },
                   {
-                    "text":"United States",
-                    "value":"USA"
+                    "text":"Italy",
+                    "value":"11"
+                  },
+                  {
+                    "text":"France",
+                    "value":"12"
+                  },
+                  {
+                    "text":"Australia",
+                    "value":"13"
+                  },
+                  {
+                    "text":"Israel",
+                    "value":"14"
+                  },
+                  {
+                    "text":"Spain",
+                    "value":"15"
+                  },
+                  {
+                    "text":"South Africa",
+                    "value":"16"
                   }
                 ]
               }

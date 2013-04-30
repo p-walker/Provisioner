@@ -8,7 +8,7 @@
 		"firmware_pkg":"NULL",
 		"firmware_md5sum":"",
 		"description":"",
-		"configuration_files":"snom-$model-$mac.xml,snom$model.xml,$mac_firmware.xml",
+		"configuration_files":"snom$model.xml,snom-$model-$mac.xml,snom-$model-$mac_settings.xml,snom-$model-$mac_firmware.xml",
 		"changelog":"",
 		"provisioning_types":
 		[
@@ -24,7 +24,7 @@
 				"template_data":
 				[
 					"line_options.json",
-					"template_data.json",
+					"template_data.json"
 				]
 			},
 			{
@@ -34,7 +34,7 @@
 				"template_data":
 				[
 					"line_options.json",
-					"template_data.json",
+					"template_data.json"
 				]
 			}
 		]

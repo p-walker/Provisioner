@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<phone-settings>
+		{line_loop}
+		<user_active idx="{$line}" perm="">true</user_active>
+		<user_name idx="{$line}" perm="">{$username}</user_name>
+		<user_realname idx="{$line}" perm="">{$realname}</user_realname>
+		<user_pass idx="{$line}" perm="">{$secret}</user_pass>
+		<user_host idx="{$line}" perm="">{$user_host}</user_host>
+		<user_mailbox idx="{$line}" perm="">{$username}</user_mailbox>
+		<user_outbound idx="{$line}" perm="">{$user_outbound}</user_outbound>	
+		<user_ipui idx="{$line}" perm="">{$ipui}</user_ipui>
+		<user_sip_info idx="{$line}" perm="">{$dtmf}</user_dtmf_info>
+		<user_srtp idx="{$line}" perm="">false</user_srtp>
+		<user_user_pbxtype idx="{$line}" perm="">asterisk</user_pbxtype>
+		{/line_loop}
+		<base_name perm="">{$base_name}</base_name>
+		<http_username perm="">{$http_username}</http_username>
+		<http_password perm="">{$http_password}</http_password>
+		<base_pin perm="">{$base_pin}</base_pin>
+		<https_port perm="">443</https_port>
+		<ntp_server perm="">{$network_time_server}</ntp_server>
+		<zone_name perm="">{$timezone}</zone_name>
+		<tones perm="">{$tone_scheme}</tones>
+		<advertisement_url perm="">{$advertisement_url}</advertisement_url>
+	</phone-settings>
+</settings>
+
+
+

@@ -2,7 +2,7 @@
 /**
  * Snom m9 Provisioning System
  *
- * @author Andrew Nagy & Jort
+ * @author Philipp Walker
  * @license MPL / GPLv2 / LGPL
  * @package Provisioner
  */
