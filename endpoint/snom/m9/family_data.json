@@ -26,16 +26,6 @@
 					"line_options.json",
 					"template_data.json"
 				]
-			},
-			{
-				"model":"m9r",
-				"lines":"9",
-				"id":"2",
-				"template_data":
-				[
-					"line_options.json",
-					"template_data.json"
-				]
 			}
 		]
 	}
