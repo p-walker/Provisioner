@@ -71,19 +71,19 @@
               },
               {
                 "variable":"$http_user",
-                "default_value":"admin",
+                "default_value":"",
                 "description":"Phone Web Interface Username",
                 "type":"input"
               },
               {
                 "variable":"$http_pass",
-                "default_value":"snom",
+                "default_value":"",
                 "description":"Phone Web Interface Password",
                 "type":"input"
               },
               {
                 "variable":"$admin_mode_password",
-                "default_value":"1234",
+                "default_value":"",
                 "description":"Admin Mode Password (Digits ONLY)",
                 "type":"input"
               },
