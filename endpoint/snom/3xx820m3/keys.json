@@ -95,6 +95,12 @@
                 "type":"input"
               },
               {
+                "variable":"$dkey_menu",
+                "default_value":"keyevent none",
+                "description":"Menu Key",
+                "type":"input"
+              },
+              {
                 "type":"break"
               }
             ]
