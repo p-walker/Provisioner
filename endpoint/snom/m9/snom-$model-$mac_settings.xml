@@ -14,6 +14,7 @@
 		<user_sip_info idx="{$line}" perm="">{$dtmf}</user_dtmf_info>
 		<user_srtp idx="{$line}" perm="">false</user_srtp>
 		<user_user_pbxtype idx="{$line}" perm="">asterisk</user_pbxtype>
+		<user_transfer_on_hangup perm="" idx="{$line}">true</user_transfer_on_hangup>
 		{/line_loop}
 		<base_name perm="">{$base_name}</base_name>
 		<http_username perm="">{$http_username}</http_username>
