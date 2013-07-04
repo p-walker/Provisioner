@@ -84,6 +84,9 @@
            ]
           },
           {
+           "type":"break"
+          },
+          {
            "variable":"$lineringer",
            "default_value":"Ringer1",
            "description":"Ringtone for this line",
@@ -139,6 +142,15 @@
              "value":"Custom"
             }
            ]
+          },
+          {
+           "variable":"$custom_ringer_url",
+           "default_value":"",
+           "description":"Custom Melody URL",
+           "type":"input"
+          },
+          {
+           "type":"break"
           },
           {
            "variable":"$idle_screen_url",
